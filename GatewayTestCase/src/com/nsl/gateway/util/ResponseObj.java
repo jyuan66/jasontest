@@ -3,6 +3,12 @@ package com.nsl.gateway.util;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
+/**
+ * 儲存Http Response的結果
+ * 
+ * @author WSNPI05
+ *
+ */
 public class ResponseObj {
 	private int status;
 
