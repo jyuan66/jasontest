@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<error xmlns="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+ <code>/IWBEP/CM_MGW_RT/022</code>
+ <message xml:lang="en">The related user id could not be found.</message>
+ <innererror>
+  <application>
+   <component_id/>
+   <service_namespace>/NSL/</service_namespace>
+   <service_id>CANDIDATE_360_SRV</service_id>
+   <service_version>0001</service_version>
+  </application>
+  <transactionid>58D950168A470CF5E10000000A7F2A14</transactionid>
+  <timestamp>20170329034826.3477710</timestamp>
+  <Error_Resolution>
+   <SAP_Transaction>Run transaction /IWFND/ERROR_LOG on SAP Gateway hub system and search for entries with the timestamp above for more details</SAP_Transaction>
+   <SAP_Note>See SAP Note 1797736 for error analysis (https://service.sap.com/sap/support/notes/1797736)</SAP_Note>
+  </Error_Resolution>
+  <errordetails>
+   <errordetail>
+    <code>/IWBEP/CX_MGW_BUSI_EXCEPTION</code>
+    <message>The related user id could not be found.</message>
+    <propertyref/>
+    <severity>error</severity>
+    <target/>
+   </errordetail>
+  </errordetails>
+ </innererror>
+</error>

@@ -1,0 +1,74 @@
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xml:base="http://WNSDLSAP020.nanshan.com.tw:8000/sap/opu/odata/NSL/CANDIDATE_360_SRV/">
+ <id>http://WNSDLSAP020.nanshan.com.tw:8000/sap/opu/odata/NSL/CANDIDATE_360_SRV/CandidateSet</id>
+ <title type="text">CandidateSet</title>
+ <updated>2017-03-29T02:45:34Z</updated>
+ <author>
+  <name/>
+ </author>
+ <link href="CandidateSet" rel="self" title="CandidateSet"/>
+ <entry>
+  <id>http://WNSDLSAP020.nanshan.com.tw:8000/sap/opu/odata/NSL/CANDIDATE_360_SRV/CandidateSet(guid'00505697-6d81-1ed7-82c4-c03226bf1103')</id>
+  <title type="text">CandidateSet(guid'00505697-6d81-1ed7-82c4-c03226bf1103')</title>
+  <updated>2017-03-29T02:45:34Z</updated>
+  <category term="/NSL/CANDIDATE_360_SRV.Candidate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+  <link href="CandidateSet(guid'00505697-6d81-1ed7-82c4-c03226bf1103')" rel="self" title="Candidate"/>
+  <link href="CandidateSet(guid'00505697-6d81-1ed7-82c4-c03226bf1103')/AddressSet" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AddressSet" type="application/atom+xml;type=feed" title="AddressSet"/>
+  <link href="CandidateSet(guid'00505697-6d81-1ed7-82c4-c03226bf1103')/AttachmentSet" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AttachmentSet" type="application/atom+xml;type=feed" title="AttachmentSet"/>
+  <link href="CandidateSet(guid'00505697-6d81-1ed7-82c4-c03226bf1103')/NoteSet" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/NoteSet" type="application/atom+xml;type=feed" title="NoteSet"/>
+  <content type="application/xml">
+   <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+    <d:Guid>00505697-6d81-1ed7-82c4-c03226bf1103</d:Guid>
+    <d:AgentLeaderId/>
+    <d:CandidateId>5000000043</d:CandidateId>
+    <d:RecordGuid>00000000-0000-0000-0000-000000000000</d:RecordGuid>
+    <d:CreateDate>20170316</d:CreateDate>
+    <d:NameFirst/>
+    <d:NameLast>tet</d:NameLast>
+    <d:Nickname/>
+    <d:Gender>1</d:Gender>
+    <d:Birthday>19811013</d:Birthday>
+    <d:Age>35</d:Age>
+    <d:TaxId/>
+    <d:ContactTel/>
+    <d:Email/>
+    <d:RecentContactDate/>
+    <d:EstimatedContactDate>00000000</d:EstimatedContactDate>
+    <d:HighestDegree/>
+    <d:GraduatedSchool/>
+    <d:GraduatedSchoolOther/>
+    <d:Major/>
+    <d:WorkingStatus/>
+    <d:Occupation/>
+    <d:Company/>
+    <d:JobTitle/>
+    <d:CompanyTel/>
+    <d:Marriage/>
+    <d:ChildrenStatus/>
+    <d:KeyEffectPerson/>
+    <d:ParentsName/>
+    <d:SpouseName/>
+    <d:ChildrenName/>
+    <d:SiblingsName/>
+    <d:GrandChildrenName/>
+    <d:OtherInsurableInterestName/>
+    <d:GrandParentsName/>
+    <d:InterestedPartiesName/>
+    <d:RecruitChannel/>
+    <d:IntroducedByWho/>
+    <d:IntroducedToWho/>
+    <d:GroupTag/>
+    <d:GroupTagOther/>
+    <d:Hobby/>
+    <d:HobbyOther/>
+    <d:IncomePerYear/>
+    <d:LivingArrangement/>
+    <d:Transportation/>
+    <d:RecruitLevel/>
+    <d:CandidateOpportunityStatus/>
+    <d:CandidateQualityScore/>
+    <d:UpdateType/>
+    <d:BirthMonth/>
+   </m:properties>
+  </content>
+ </entry>
+</feed>
