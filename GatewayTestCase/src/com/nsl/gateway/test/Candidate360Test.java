@@ -19,7 +19,7 @@ public class Candidate360Test {
 	public void setUp() throws Exception {
 		caller = new GatewayCaller("dp2wdp.nanshan.com.tw", 8888, "http", "W9006357", "Qwer1234");
 		testDataPath = "./testData/Candidate360/";
-	}
+	}  
 
 	@Test
 	public void test() throws Exception {
