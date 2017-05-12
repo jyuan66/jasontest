@@ -42,7 +42,7 @@ public class CandidateOpportunity {
 		DiffUtils diff = new DiffUtils()
 				.diff(response.getContent(), FileUtils.readFileToString(testDataPath, "CheckOpportunityByCandidate.xml"));
 		assertNull(diff.getDiff());
-		System.out.println("\n"); 
+		System.out.println("\na"); 
 	}
 
 }
