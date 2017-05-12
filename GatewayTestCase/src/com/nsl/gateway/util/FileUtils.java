@@ -19,7 +19,7 @@ public class FileUtils {
 			StringBuffer sb = new StringBuffer();
 			String line = null;
 			while ((line = input.readLine()) != null) {
-				sb.append(line);
+				sb.append(line).append(System.lineSeparator());
 			}
 			return sb.toString();
 		} catch (Exception e) {

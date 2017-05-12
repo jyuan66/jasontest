@@ -19,27 +19,6 @@ public class Candidate360Test {
 	public void setUp() throws Exception {
 		caller = new GatewayCaller("dp2wdp.nanshan.com.tw", 8888, "http", "W9006357", "Qwer1234");
 		testDataPath = "./testData/Candidate360/";
-	}  
-
-	@Test
-	public void test() throws Exception {
-		// ResponseObj response = null;
-		// JSONObject jsonResult = null;
-		// JSONObject jsonExpect = null;
-		//
-		// response =
-		// caller.get("/sap/opu/odata/NSL/CANDIDATE_360_SRV/CandidateSet");
-		// System.out.println(response.toString() + "\n");
-		// assertEquals(response.getStatus(), 200);
-
-		// 只比XML String是不行的, 因為OData有個updated欄位, 每次都會是不同的值
-		// assertEquals(response.getContent(),
-		// FileUtils.readFileToString(testDataPath,
-		// "CandidateSet_Get_EntitySet_W9006357.xml"));
-
-		// jsonResult = ODataReader.xmlToJson(response.getContent());
-		// jsonExpect = ODataReader.xmlFileToJson(testDataPath,
-		// "CandidateSet_Get_EntitySet_W9006357.xml");
 	}
 
 	@Test
@@ -92,4 +71,16 @@ public class Candidate360Test {
 		System.out.println("\n");
 	}
 
+	@Test
+	public void testBatchUpdateRECRUIT_LEVEL() throws Exception {
+		ResponseObj response = caller.post("/sap/opu/odata/NSL/CANDIDATE_360_SRV/$batch",
+				FileUtils.readFileToString(testDataPath, "BatchUpdate_RECRUIT_LEVEL.txt"));
+		assertEquals(response.getStatus(), 200);
+
+		DiffUtils diff = new DiffUtils().ignoreAttribute("xml:base").ignoreTag("id").ignoreTag("updated")
+				.printLog(false)
+				.diff(response.getContent(), FileUtils.readFileToString(testDataPath, "SearchHelpSet.xml"));
+		assertNull(diff.getDiff());
+		System.out.println("\n");
+	}
 }

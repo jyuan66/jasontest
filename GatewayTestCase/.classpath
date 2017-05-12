@@ -4,6 +4,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="D:/work/workspace_gateway_test/lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="D:/work/workspace_gateway_test/lib/commons-lang3-3.5.jar"/>
 	<classpathentry kind="lib" path="D:/work/workspace_gateway_test/lib/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="D:/work/workspace_gateway_test/lib/fluent-hc-4.5.3.jar"/>
 	<classpathentry kind="lib" path="D:/work/workspace_gateway_test/lib/httpclient-4.5.3.jar"/>
@@ -11,14 +12,9 @@
 	<classpathentry kind="lib" path="D:/work/workspace_gateway_test/lib/httpclient-win-4.5.3.jar"/>
 	<classpathentry kind="lib" path="D:/work/workspace_gateway_test/lib/httpcore-4.4.6.jar"/>
 	<classpathentry kind="lib" path="D:/work/workspace_gateway_test/lib/httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/work/workspace_gateway_test/lib/java-json.jar"/>
 	<classpathentry kind="lib" path="D:/work/workspace_gateway_test/lib/jna-4.1.0.jar"/>
 	<classpathentry kind="lib" path="D:/work/workspace_gateway_test/lib/jna-platform-4.1.0.jar"/>
-	<classpathentry kind="lib" path="D:/work/workspace_gateway_test/lib/xmlunit-core-2.3.0.jar" sourcepath="D:/tools/java/xml/xmlunit-2.3.0-src/xmlunit-core/src/main/java">
-		<attributes>
-			<attribute name="source_encoding" value="UTF-8"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="D:/work/workspace_gateway_test/lib/java-json.jar"/>
-	<classpathentry kind="lib" path="D:/work/workspace_gateway_test/lib/commons-lang3-3.5.jar"/>
+	<classpathentry kind="lib" path="D:/work/workspace_gateway_test/lib/xmlunit-core-2.3.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
